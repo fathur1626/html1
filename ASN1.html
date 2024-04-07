@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Evaluasi Pencapaian Ramadhan</title>
+</head>
+<body>
+    <h2>Lembar Evaluasi Capaian Ramadhan</h2>
+    <div class="form2">
+    <form>
+        <label for="nama">Nama Lengkap:</label>
+        <br>
+        <input type="text" id="nama" name="nama" required>
+        <br>
+        <br>
+        <label for="umur">Umur:</label>
+        <br>
+        <input type="number" id="umur" name="umur" required>
+        <br>
+        <br>
+        <label>Jenis Kelamin:</label><br>
+             <input type="radio" id="Laki-Laki" name="Gender" value="Laki-Laki"/>
+             <label for="Laki-Laki">Laki-Laki</label>
+             <input type="radio" id="Perempuan" name="Gender" value="Perempuan"/>
+             <label for="Perempuan">Perempuan</label><br><br>
+        <label for="kegiatan">Kegiatan yang Dilakukan selama Ramadhan:</label>
+        <br>
+        <textarea id="kegiatan" name="kegiatan" rows="4" cols="50" required></textarea>
+        <br>
+        <br>
+        <label for="penilaian">Penilaian Capaian Ramadhan:</label>
+        <br>
+        <select id="penilaian" name="penilaian" required>
+            <option value="">Pilih Penilaian</option>
+            <option value="Sangat Memuaskan">Sangat Memuaskan</option>
+            <option value="Memuaskan">Memuaskan</option>
+            <option value="Cukup">Cukup</option>
+            <option value="Kurang">Kurang</option>
+        </select>
+        <br>
+        <br>
+        <label for="saran">Pesan dan Kesan Ramadhan Tahun Ini:</label>
+        <br>
+        <textarea id="saran" name="saran" rows="4" cols="50"></textarea>
+        <br>
+        <br>
+        <input type="submit" value="Kirim">
+    </form>
+    </div>
+</body>
+</html>
